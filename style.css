@@ -1,0 +1,184 @@
+body {
+  margin:0;
+  padding:0;
+  text-align:justify;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  /*header*/
+
+header .container{
+  display:inline-flex;
+}
+header .container #bg-img {
+  background:url('images/pexels-photo-355770.jpeg') no-repeat;
+  width:100%;
+}
+
+.brand {
+    opacity:1;
+    z-index: 1;
+    color: crimson;
+    font-size:1em;
+   
+    margin-left: 200px;
+    top:0;
+  }
+.links {
+  margin-top: 10px;
+   float: right;
+ 
+}
+.links nav ul {
+  z-index: 1;
+  margin-left: 300px;
+  list-style: none;
+  position: fixed;
+}
+.links nav ul li {
+   
+  display:inline-block;
+}
+.links ul li a{
+  color: blueviolet;
+  padding:5px;
+  font-size:18px;
+  text-decoration: none;
+  margin-left: 25px;
+ 
+  
+}
+.links ul li a:hover{
+  color:red;
+  border-bottom:3px solid gray;
+
+}
+header{
+  top:0;
+  background-image: url('images/pexels-photo-355770.jpeg'); 
+  background-repeat: no-repeat;
+  background-color:#fff;
+  background-size:cover;
+  height:100vh;
+  width:100%;
+}
+.content {
+  z-index:1;
+  margin-top:50px;
+  text-align: left;
+  margin-left:200px;
+}
+.content p {
+
+  font-weight: 800;
+  line-height: 1;
+  color:green;
+  font-size:2.5em;
+}
+.btndiv {
+margin-left:650px;
+z-index: 1;
+
+}
+.btndiv button {
+border-radius:10px;
+font-size:18px;
+width:150px;
+height:40px;
+background-color: black;
+
+}
+.btndiv button:hover {
+  background-color: beige;
+ 
+}
+.btndiv a {
+ color:green;
+  text-decoration: none;
+}
+/*----mywork--*/
+#section-a {
+margin: 0;
+background-color:lightseagreen;
+}
+#section-a>h1 {
+  text-decoration: underline;
+padding-top:80px;
+  text-align: center;
+}
+#section-a .container .row{
+  top:0;
+  margin:0 200px;
+  display:inline-flex;
+  clear: both;
+}
+#section-a .container .row .box1{
+  padding:50px;
+
+}
+#section-a .container .row .box2{
+
+  padding:50px;
+}
+/*section b */
+#section-b{
+  background-color: black;
+  color:white;
+  
+}
+#section-b>h1 {
+  margin:0;
+  padding:20px;
+  text-align: center;
+   text-decoration: underline;
+}
+#section-b .container .row{
+  top:0;
+  margin:0 200px;
+  display:inline-flex;
+  clear: both;
+}
+#section-b .container .row .box1{
+  padding:50px;
+
+}
+#section-b .container .row .box1 img {
+  padding-top:40px;
+  
+}
+#section-b .container .row .box2{
+padding:50px;
+margin-left:70px;
+}
+/* contact me*/
+#section-c {
+  background-color:lightgreen;
+}
+#section-c>h1 {
+  padding:0;
+  margin:0;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+form:p{
+ padding-left:0;
+}
+#contactarea {
+  margin-left:580px;
+}
+#contactarea input[type] {
+margin-top:20px;
+}
+#contactarea input[type='submit']{
+ margin-left:80px;
+ margin-bottom:20px;
+}
+
+#section-d {
+  color:red;
+  text-align:center;
+}
+#section-d p {
+  font-size: 1.6em;
+}
